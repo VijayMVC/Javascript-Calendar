@@ -1,0 +1,82 @@
+﻿#Calendar 
+{
+    font-family: Verdana;
+    font-size: 10px;
+    width: 219px;
+    height: 248px;   
+}
+
+#Calendar #MonthYearName
+{
+    height: 20px;
+    padding-top: 5px;
+    color: #BBB;
+    font-weight: bold;
+    text-align: center;
+    background-color: #333333;
+}
+
+#Calendar #DaysName
+{
+    height: 25px;
+    background-color: #F6F6F6;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
+
+#Calendar #CalendarBoard
+{
+    width: 217px;
+    height: 150px;   
+    border: 1px solid #333;
+    background-color: #F9F9F9;
+}
+
+#DaysName ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#DaysName li
+{
+    float: left;
+    width: 31px;
+    height: 20px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.OffDay
+{
+    /*border: 1px solid #333;*/
+    background-color: #F9F9F9;
+    color: #CCC;
+}
+
+.Day
+{
+    float: left;
+    /*border: 1px solid #333;*/
+    background-color: #F6F6F6;
+    text-align: center;
+    width: 31px;
+    height: 20px;
+    padding-top: 5px;
+}
+
+.RegularDay
+{
+    background-color: Silver;
+}
+
+.CurrentDay
+{
+    background-color: Red;
+}
+
+.EventDay
+{
+    background-color: Green;
+}
